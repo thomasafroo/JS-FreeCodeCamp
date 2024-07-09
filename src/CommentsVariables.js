@@ -58,7 +58,3 @@ var c = "I am a";
  studlyCapVar = 10;
  properCamelCase = "A String";
  titleCasOover = 9000;
-
- // Adding Numbers
- var sum = 10 + 10;
- console.log(sum);
