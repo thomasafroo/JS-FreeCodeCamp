@@ -6,6 +6,15 @@
  var difference = 45 - 0;
 
  // Multiplying numbers
- var product = 8 * 0;
+ var product = 8 * 10;
 
- //
+ // Dividing numbers
+var quotient = 66 / 0;
+console.log(quotient);
+
+// incrementing numbers
+var myVar = 87;
+myVar++;
+
+// Decrementing numbers
+myVar--;
