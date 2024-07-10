@@ -91,4 +91,12 @@ console.log(firstLetterOfLastName)
 // the string can be still be changed, but each individual character cannot be changed
 // analogy: a string is a cake you cannot cut
 
- 
+var myStr = "Jello World"
+myStr = "Hello World"
+
+// to find the last character of a string
+var firstName = "Thomas"
+var lastLetter = firstName[firstName.length - 1]
+console.log(lastLetter)
+
+// Store values in arrays
