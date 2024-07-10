@@ -40,6 +40,54 @@ remainder = 11 % 3;
 var myStr = "I am a \"double quoted\" string inside \"double quotes\"";
 console.log(myStr);
 
-
+// concatenation
 var myStr = "This is the start. " + "This is the end."
 console.log(myStr)
+
+var ourStr = "i come first. ";
+ourStr += "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the first sentence. "
+myStr +=  "This is the second sentence."
+
+console.log(myStr);
+
+// appending variables to strings
+var anAdjective = "awesome!"
+var ourStr = "freeCodeCamp is "
+ourStr += anAdjective
+
+var someAdjective = "worthwhile"
+var myStr = "Learning to code is "
+myStr += someAdjective
+console.log(myStr)
+
+//length of a string
+var firstNameLength = 0;
+var firstName = "Ada";
+firstNameLength = firstName.length;
+
+var lastNameLength = 0;
+var lastName = "Lovelace"
+
+lastNameLength = lastName.length
+console.log(lastNameLength)
+
+// accessing characters
+var firstLetterOfFirstName = "";
+var firstName = "Ada"
+
+firstLetterOfFirstName = firstName[0];
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace"
+
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName)
+
+// strings are immutable (cannot be altered once created)
+// the string can be still be changed, but each individual character cannot be changed
+// analogy: a string is a cake you cannot cut
+
