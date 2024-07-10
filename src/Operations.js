@@ -91,3 +91,4 @@ console.log(firstLetterOfLastName)
 // the string can be still be changed, but each individual character cannot be changed
 // analogy: a string is a cake you cannot cut
 
+ 
