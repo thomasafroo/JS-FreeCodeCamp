@@ -43,4 +43,4 @@ ourArray.push(["happy", "joy"])
 var myArray = [["John", 23], ["cat", 2]];
 
 // only change code below this line
-myArray.push(["dog"])
+myArray.push(["dog", 3])
