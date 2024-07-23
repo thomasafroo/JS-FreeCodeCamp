@@ -31,5 +31,6 @@ functionWithArgs(10, 5)
 var myGlobal = 10;
 
 function fun1() {
+    // assign 5 to oopsGlobal here
     
 }
