@@ -59,3 +59,13 @@ function myLocalScope() {
 
 myLocalScope();
 
+// global vs local scope in functions
+var outerWear = "T-shirt";
+
+function myOutfit() {
+
+
+    return outerWear;
+}
+
+console.log(myOutfit());
