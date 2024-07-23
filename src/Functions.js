@@ -14,3 +14,6 @@ function reusableFunction() {
 reusableFunction();
 
 // passing values as arguments
+function ourFunctionWithArgs(a, b) {
+    
+}
