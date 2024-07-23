@@ -44,3 +44,16 @@ var myArray = [["John", 23], ["cat", 2]];
 
 // only change code below this line
 myArray.push(["dog", 3])
+
+// pop
+ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop();
+
+//setup
+var myArray = [["Johm", 23], ["cat", 2]]
+var removedFromOurArray = ourArray.shift();
+
+
+var myArray = [["John", 23], ["dog", 3]]
+
+var removedFromOurArray = myArray.shift();
