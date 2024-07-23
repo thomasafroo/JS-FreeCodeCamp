@@ -36,3 +36,13 @@ function fun1() {
 }
 
 // only change code above this line
+function fun2() {
+    var output = "";
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+
+
+
+}
