@@ -25,3 +25,11 @@ function functionWithArgs(a, b) {
 }
 
 functionWithArgs(10, 5)
+
+// scope
+
+var myGlobal = 10;
+
+function fun1() {
+    
+}
