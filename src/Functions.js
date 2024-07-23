@@ -12,3 +12,5 @@ function reusableFunction() {
 }
 
 reusableFunction();
+
+// passing values as arguments
