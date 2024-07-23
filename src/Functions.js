@@ -32,7 +32,7 @@ var myGlobal = 10;
 
 function fun1() {
     // assign 5 to oopsGlobal here
-
+    oopsGlobal = 5; // since there is no 'var' it automatically becomes global
 }
 
 // only change code above this line
