@@ -50,10 +50,23 @@ ourArray = [1,2,3];
 var removedFromOurArray = ourArray.pop();
 
 //setup
-var myArray = [["Johm", 23], ["cat", 2]]
+var myArray = [["John", 23], ["cat", 2]]
 var removedFromOurArray = ourArray.shift();
 
 
 var myArray = [["John", 23], ["dog", 3]]
 
 var removedFromOurArray = myArray.shift();
+
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray now equals ["J", "cat"]
+ourArray.unshift("Happy");
+// ourArray now equals ["Happy", "J", "cat"]
+
+// setup
+var myArray = [["John", 23], ["dog", 23]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+
+var myList = [["cereal", 3], ["milk", 2], ["bananas", 3], ["juice", 2], ["eggs", 12]];
+
