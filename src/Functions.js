@@ -69,3 +69,5 @@ function myOutfit() {
 
 console.log(myOutfit());
 console.log(outerWear);
+
+// return a value from a Function with Return 
