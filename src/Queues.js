@@ -1,5 +1,5 @@
 function nextLine(arr, item) {
-    
+    arr.push(item);
     return item;
 }
 
