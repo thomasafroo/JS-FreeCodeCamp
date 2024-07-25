@@ -92,3 +92,5 @@ function addThree() {
 function addFive() {
   sum += 5;
 }
+
+// assignment with a returned value
