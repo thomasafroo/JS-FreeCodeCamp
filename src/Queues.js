@@ -41,3 +41,14 @@ function testEqual(val) {
 
 // change this value to test
 console.log(testEqual(10));
+
+// setup 
+function testStrict(val) {
+    if (val) {
+        return "Equal";
+    }
+    return "Not equal";
+}
+
+// change this value to test
+testStrict(10);
