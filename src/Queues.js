@@ -33,11 +33,11 @@ console.log(trueOrFalse(true));
 
 // comparison with the equality operator
 function testEqual(val) {
-    if (val) {
+    if (val==12) {
         return "Equal";
     }
     return "Not Equal";
 }
 
 // change this value to test
-
+console.log(testEqual(10));
