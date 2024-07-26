@@ -29,4 +29,4 @@ function trueOrFalse(wasThatTrue) {
     return "No, that was false";
 }
 
-trueOrFalse(true);
+console.log(trueOrFalse(true));
