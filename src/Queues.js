@@ -30,3 +30,12 @@ function trueOrFalse(wasThatTrue) {
 }
 
 console.log(trueOrFalse(true));
+
+// comparison with the equality operator
+function testEqual(val) {
+    if (val) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
