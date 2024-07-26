@@ -12,4 +12,4 @@ console.log("After: " + JSON.stringify(testArr));
 // boolean values
 function welcomeToBooleans() {
     return false;
-}
+}   
