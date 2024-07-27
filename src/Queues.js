@@ -51,7 +51,7 @@ function testStrict(val) {
 }
 
 // change this value to test
-testStrict(10);
+console.log(testStrict(10))
 
 /*
 3 === 3
