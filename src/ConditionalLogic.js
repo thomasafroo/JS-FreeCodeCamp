@@ -1,0 +1,74 @@
+
+// use conditional logic with If statements
+function ourTrueOrFalse(isItTrue) {
+    if (isItTrue) {
+        return "Yes, it's true";
+    }
+    return "No, it's false";
+}
+
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue) {
+        return "Yes, that was true";
+    }
+    return "No, that was false";
+}
+
+console.log(trueOrFalse(true));
+
+// comparison with the equality operator
+function testEqual(val) {
+    if (val==12) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+
+// change this value to test
+console.log(testEqual(10));
+
+// setup 
+function testStrict(val) {
+    if (val === 7) {
+        return "Equal";
+    }
+    return "Not equal";
+}
+
+// change this value to test
+console.log(testStrict(10))
+
+/*
+3 === 3
+3 === '3'
+*/
+
+// compare equality
+function compareEquality(a, b) {
+    if (a === b) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
+console.log(compareEquality(10, "10"));
+
+// compare inequality
+function testNotEqual(val) {
+    if (val != 99) {
+        return "Not Equal";
+    }
+    return "Equal";
+}
+console.log(testNotEqual(10));
+
+// comparison with strict inequality
+// setup
+function testStrictNotEqual(val) {
+    if (val !== 17) {
+        return "Not Equal";
+    }
+    return "Equal";
+}
+
+// change this value to test
+console.log(testStrictNotEqual(10));
