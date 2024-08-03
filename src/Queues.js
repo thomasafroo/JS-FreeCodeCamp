@@ -69,9 +69,24 @@ console.log(compareEquality(10, "10"));
 
 // compare inequality
 function testNotEqual(val) {
-    if (val) {
+    if (val != 99) {
         return "Not Equal";
     }
     return "Equal";
 }
 console.log(testNotEqual(10));
+
+// comparison with strict inequality
+// setup
+function testStrictNotEqual(val) {
+
+    if (val !== 17) {
+
+        return "Not Equal";
+    }
+    return "Equal";
+}
+
+// change this value to test
+console.log(testStrictNotEqual(10));
+
