@@ -191,3 +191,4 @@ function golfScore(par, strokes) {
     return "Change Me";
 }
 
+golfScore(5, 4);
