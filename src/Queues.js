@@ -66,3 +66,12 @@ function compareEquality(a, b) {
     return "Not Equal";
 }
 console.log(compareEquality(10, "10"));
+
+// compare inequality
+function testNotEqual(val) {
+    if (val) {
+        return "Not Equal";
+    }
+    return "Equal";
+}
+console.log(testNotEqual(10));
