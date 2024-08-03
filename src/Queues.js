@@ -6,7 +6,7 @@ function nextLine(arr, item) {
 var testArr = [1,2,3,4,5];
 
 console.log("Before: " + JSON.stringify(testArr));
-console.log(nextInLine(testArr, 6));
+console.log(nextLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
 // boolean values
@@ -60,7 +60,7 @@ console.log(testStrict(10))
 
 // compare equality
 function compareEquality(a, b) {
-    if (a == b) {
+    if (a === b) {
         return "Equal";
     }
     return "Not Equal";
