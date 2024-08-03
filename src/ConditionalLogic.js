@@ -105,3 +105,14 @@ function testGreaterThanOrEqual(val) {
 // Change this value to test
 console.log(testGreaterThanOrEqual(10));
 
+// less than
+function testLessThan(val) {
+    if (val < 25)  {
+        return "Under 25";
+    }
+    if (val < 55) {
+        return "Under 55";
+    }
+    return "55 or over";
+}
+console.log(testLessThan(10));
