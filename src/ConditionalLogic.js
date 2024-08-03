@@ -186,4 +186,8 @@ function golfScore(par, strokes) {
     } else if (strokes == par) {
         return name[3];
     }
+
+
+    return "Change Me";
 }
+
