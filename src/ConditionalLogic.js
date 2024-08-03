@@ -162,3 +162,14 @@ function testElseIf(val) {
     return "Between 5 and 10";
 }
 
+// logical order in if else statements
+function orderMyLogic(val) {
+    if (val > 10) {
+        return "Greater than 10";
+    } else if (val < 5) {
+        return "smaller than 5";
+    } else {
+        return "Greater than or equal to 10";
+    }
+    return "Between 5 and 10";
+}
