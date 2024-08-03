@@ -175,22 +175,22 @@ function orderMyLogic(val) {
 }
 
 // golf code
-var name = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", ""];
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 function golfScore(par, strokes) {
     if (strokes == 1) {
-        return name[0];
+        return names[0];
     } else if (strokes <= par - 2) {
-        return name[1];
+        return names[1];
     } else if (strokes == par - 1) {
-        return name[2];
+        return names[2];
     } else if (strokes == par) {
-        return name[3];
+        return names[3];
     } else if (strokes == par + 1) {
-        return name[4];
+        return names[4];
     } else if (strokes == par + 2) {
-        return name[5];
+        return names[5];
     } else if (strokes >= par + 3) {
-        return name[6];
+        return names[6];
     }
 
 
