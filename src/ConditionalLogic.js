@@ -72,3 +72,21 @@ function testStrictNotEqual(val) {
 
 // change this value to test
 console.log(testStrictNotEqual(10));
+
+
+function testGreaterThan(val) {
+    if (val > 100) {
+        return "Over 100";
+    }
+
+    if (val > 10) {
+        return "Over 10";
+    }
+
+    return "10 or Under";
+}
+
+// Change this value to test
+console.log(testGreaterThan(10));
+
+// comparison with the >= operator
