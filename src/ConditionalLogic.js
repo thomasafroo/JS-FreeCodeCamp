@@ -175,11 +175,15 @@ function orderMyLogic(val) {
 }
 
 // golf code
-var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", ""];
+var name = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", ""];
 function golfScore(par, strokes) {
     if (strokes == 1) {
-        return names[0];
+        return name[0];
     } else if (strokes <= par - 2) {
-        return names[1];
+        return name[1];
+    } else if (strokes == par - 1) {
+        return name[2];
+    } else if (strokes == par) {
+        return name[3];
     }
 }
