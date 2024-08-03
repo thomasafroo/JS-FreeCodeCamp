@@ -57,3 +57,11 @@ console.log(testStrict(10))
 3 === 3
 3 === '3'
 */
+
+// compare equality
+function compareEquality(a, b) {
+    if (a == b) {
+        return "Equal";
+    }
+    return "Not Equal";
+}
