@@ -185,6 +185,12 @@ function golfScore(par, strokes) {
         return name[2];
     } else if (strokes == par) {
         return name[3];
+    } else if (strokes == par + 1) {
+        return name[4];
+    } else if (strokes == par + 2) {
+        return name[5];
+    } else if (strokes >= par + 3) {
+        return name[6];
     }
 
 
