@@ -116,3 +116,24 @@ function testLessThan(val) {
     return "55 or over";
 }
 console.log(testLessThan(10));
+
+
+function testLogicalAnd(val) {
+    if (val <= 50 && val >= 25) {
+        return "Yes";
+    }
+
+    return "No";
+}
+
+testLogicalAnd(10);
+
+function testLogicalOr(val) {
+    if (val <= 50 || val >= 25) {
+        return "Yes";
+    }
+
+    return "No";
+}
+
+testLogicalOr(10);
