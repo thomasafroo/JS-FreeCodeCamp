@@ -44,7 +44,7 @@ console.log(testEqual(10));
 
 // setup 
 function testStrict(val) {
-    if (val) {
+    if (val === 7) {
         return "Equal";
     }
     return "Not equal";
