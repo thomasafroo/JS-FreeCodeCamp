@@ -65,3 +65,4 @@ function compareEquality(a, b) {
     }
     return "Not Equal";
 }
+console.log(compareEquality(10, "10"));
